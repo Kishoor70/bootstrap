@@ -1,0 +1,64 @@
+/******************************** Universal selector *******************************************/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/******************************** Navigatie *******************************************/
+
+.nav-link {
+    margin: 5px;
+    background-color: green;
+}
+
+.navbar-brand {
+    width: 220px;
+    color: #f8f8f8;
+    background-color: red;
+    text-align: center;
+}
+
+/******************************** Inhoud *******************************************/
+
+body {
+    background-color: navy;
+    height: auto;
+}
+
+.h1 {
+    color: #f8f8f8;
+}
+
+.tekst {
+    background-color: #f8f8f8;
+}
+
+.strong {
+    font-weight: 800;
+}
+
+textarea {
+    resize: none;
+}
+
+/* Footer */
+
+footer {
+    height: 100px;
+}
+
+.footer-p {
+    line-height: 100px;
+    font-size: 20px
+}
+
+
+
+
+
+
+
+
+
