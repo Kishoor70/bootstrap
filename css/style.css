@@ -10,7 +10,6 @@
 
 .nav-link {
     margin: 5px;
-    background-color: green;
 }
 
 .navbar-brand {
@@ -21,20 +20,6 @@
 
 /******************************** Inhoud *******************************************/
 
-img {
-    max-width: 100%;
-    height: auto;
-    border: 1px solid white;
-}
-
-.tekst {
-    background-color: #f8f8f8;
-}
-
-.strong {
-    font-weight: 800;
-}
-
 textarea {
     resize: none;
 }
@@ -42,6 +27,11 @@ textarea {
 .btn {
     border-radius: 0;
 }
+
+.strong {
+    font-weight: 800;
+}
+
 
 /******************************** Einde Inhoud *******************************************/
 
