@@ -1,4 +1,4 @@
-/******************************** Universal selector *******************************************/
+/* *********************************** Universal selector **************************************/
 
 * {
     margin: 0;
@@ -15,20 +15,16 @@
 
 .navbar-brand {
     width: 220px;
-    color: #f8f8f8;
-    background-color: red;
+    color: white;
     text-align: center;
 }
 
 /******************************** Inhoud *******************************************/
 
-body {
-    background-color: navy;
+img {
+    max-width: 100%;
     height: auto;
-}
-
-.h1 {
-    color: #f8f8f8;
+    border: 1px solid white;
 }
 
 .tekst {
@@ -43,16 +39,21 @@ textarea {
     resize: none;
 }
 
-/* Footer */
+.btn {
+    border-radius: 0;
+}
 
+/******************************** Einde Inhoud *******************************************/
+
+/******************************** Footer *******************************************/
 footer {
-    height: 100px;
+    width: 100%;
+    height: 200px;
+    line-height: 200px;
 }
 
-.footer-p {
-    line-height: 100px;
-    font-size: 20px
-}
+/******************************** Einde Footer *******************************************/
+
 
 
 
