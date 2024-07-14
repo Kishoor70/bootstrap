@@ -27,11 +27,11 @@
 
   <body>
     <!--*********************** Navigatie ****************************************************-->
-    <div class="container-sm">
+    <div class="container-sm g-0">
 
       <nav class="navbar navbar-expand-lg bg-primary navbar-dark py-4">
         <div class="container-sm">
-          <a href="#" class="navbar-brand ms-5 fw-bold text-uppercase">Contactformulier</a>
+          <a href="#" class="navbar-brand bg-danger ms-5 fw-bold text-uppercase">Contact</a>
 
           <button 
             class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
@@ -59,10 +59,10 @@
 
     <!--*********************** Inhoud ****************************************************-->
 
-    <div class="container-sm">
-      <h1 class="h1 text-center text-uppercase bg-success fw-bold py-4 mb-3">Contactformulier</h1>
+    <div class="container-sm g-0 bg-success">
+      <h1 class="h1 text-center text-capitalized text-white bg-danger fw-bold py-5 mb-0">Contactformulier</h1><br>
 
-      <form class="row g-3 text-primary bg-white ms-0 me-0 pt-3 pb-5" action="https://formspree.io/f/myyqwqnz" method="post">
+      <form class="row g-3 text-white ms-0 me-0 pt-3 pb-5" action="https://formspree.io/f/myyqwqnz" method="post">
         <div class="col-md-6">
           <label for="Voornaam" class="form-label">Voornaam</label>
           <input type="text" class="form-control" name="Voornaam" id="Voornaam" placeholder="Officiele voornaam" maxlength="25" required>
@@ -89,19 +89,19 @@
         </div>
 
         <div class="col-md-12">
-          <button type="submit" class="btn btn-success">Verzenden</button>
+          <button type="submit" class="btn btn-primary px-3">VERZENDEN</button>
         </div>
 
         <div class="col-md-12">
-          <input type="reset" class="btn btn-primary px-3 text-white border-primary" value="Resetten">
+          <input type="reset" class="btn btn-danger px-4 text-white" value="RESETTEN">
         </div>
 
       </form>
     </div>
 
     <!-- *************************************** Footer **************************************-->
-    <div class="container-sm">
-      <footer class="bg-success w-100">
+    <div class="container-sm g-0 bg-primary">
+      <footer>
         <p class="footer-p mh-100 text-center text-white fw-bold">&copy; Alle Rechten Voorbehouden</p>
       </footer>
     </div>
